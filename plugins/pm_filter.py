@@ -348,11 +348,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                InlineKeyboardButton('🧑‍💻 𝗠𝘆 𝗱𝗲𝘃 👨‍💻', url='https://t.me/Alifmuhammad_tg'),
+                InlineKeyboardButton('🙏 𝗦𝗵𝗮𝗿𝗲 𝗺𝗲 🙏', url='https://t.me/share/url?url=@Mohalal_robot')
             ],
             [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton('➕ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗰𝗵𝗮𝘁 ➕', url=f'http://t.me/Mohalal_robot?startgroup=true')
             ]
             ]
             
@@ -400,11 +400,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/Alifmuhammad_tg'),
+                InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/share/url?url=@Mohalal_robot')
             ],
             [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton('➕ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗰𝗵𝗮𝘁 ➕', url=f'http://t.me/Mohalal_robot?startgroup=true')
             ]
             ]
         await query.answer()
