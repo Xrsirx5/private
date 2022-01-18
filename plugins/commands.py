@@ -112,7 +112,7 @@ async def start(client, message):
         return
     file_id = message.command[1]
     if file_id.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("Please wait")
+        sts = await message.reply("𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴....📩📩")
         file_id = file_id.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
