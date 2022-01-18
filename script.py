@@ -312,6 +312,8 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}"""
 
+    EDT_TXT = """Help: <b> here I found some tailer </b>
+
     ZOMBIES_TXT = """Help: <b>Zombies</b>
 
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
@@ -340,4 +342,3 @@ Name - {}"""
     STATUS = """{}\nChat Member Status**\n\n```recently``` - {}\n```within_week``` - {}\n```within_month``` - {}\n```long_time_ago``` - {}\nDeleted Account - {}\nBot - {}\nUnCached - {}
 """
 
-    T_TXT = """Help: <b> here I found some tailer </b>
