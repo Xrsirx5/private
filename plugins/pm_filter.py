@@ -503,12 +503,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "source":
+    elif query.data == "s":
         buttons = [[
             InlineKeyboardButton('Super Sharanya', url='https://www.imdb.com/title/tt12953548'),
             InlineKeyboardButton('Bro Daddy', url='https://www.imdb.com/title/tt14875116')
             ],[
-            InlineKeyboardButton('« Back', callback_data='about')
+            InlinekeyboardButton('kurup', url='https://www.imdb.com/title/tt7026666'),
+            InlinekKeyboardButton('no way home', url='https://www.imdb.com/title/tt16854632') 
+            ],[
+            InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
