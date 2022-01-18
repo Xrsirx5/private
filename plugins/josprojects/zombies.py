@@ -7,7 +7,7 @@ from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, UserAdminInvalid
 
 
-@Client.on_message( filters.command(["inkick"]) & admin_fliter
+@Client.on_message(filters.incoming & ~filters.private & filters.command('inkick') & filters.user(ADMINS))
 def inkick(client, message):
   user = client.get_chat_member(message.chat.id, message.from_user.id)
   if user.status == ("creator"):
@@ -42,7 +42,7 @@ def inkick(client, message):
     sent_message.delete()
     message.delete()
 
-@Client.on_message( filters.command(["dkick"]) & admin_fliter
+@Client.on_message(filters.incoming & ~filters.private & filters.command('dkick') & filters.user(ADMINS))
 def dkick(client, message):
   user = client.get_chat_member(message.chat.id, message.from_user.id)
   if user.status == ("creator"):
@@ -73,7 +73,7 @@ def dkick(client, message):
     sent_message.delete()
     message.delete()
 
-@Client.on_message( filters.command(["instatus"]) & admin_fliter
+@Client.on_message(filters.incoming & ~filters.private & filters.command('instatus') & filters.user(ADMINS))
 def instatus(client, message):
   user = client.get_chat_member(message.chat.id, message.from_user.id)
   if user.status in ('administrator', 'creator', 'ADMINS'):
