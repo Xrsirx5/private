@@ -49,8 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔎𝘀𝗲𝗮𝗿𝗰𝗵', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/josprojects'),
-            InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/Alifmuhammad_tg'),
+            InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/share/url?url=https://t.me/Mohalal_robot')
             ],[
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
         ]]
@@ -96,8 +96,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔎𝘀𝗲𝗮𝗿𝗰𝗵', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/josprojects'),
-            InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/Alifmuhammad_tg'),
+            InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/share/url?url=https://t.me/Mohalal_robot')
             ],[
             InlineKeyboardButton('🔐𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
         ]]
@@ -139,11 +139,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/share/url?url=https://t.me/Mohalal_robot'),
+                    InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/Alifmuhammad_tg')
                 ],
                 [
-                    InlineKeyboardButton('➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗖𝗵𝗮𝘁 ➕', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗖𝗵𝗮𝘁 ➕', url=f'http://t.me/Mohalal_robot?startgroup=true')
                 ]
                 ]
             try:
@@ -243,11 +243,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+            InlineKeyboardButton('🙏 𝗦𝗵𝗮𝗿𝗲 𝗺𝗲 🙏', url='https://t.me/share/url?url=https://t.me/Mohalal_robot'),
+            InlineKeyboardButton('👨‍💻 𝗠𝘆 𝗱𝗲𝘃 👨‍💻', url='https://t.me/Alifmuhammad_tg')
         ],
         [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗖𝗵𝗮𝘁 ➕', url=f'https://t.me/+y53tWFUw6Q43NzE9')
         ]
         ]
     await client.send_cached_media(
