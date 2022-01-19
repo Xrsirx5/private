@@ -18,9 +18,9 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-@Client.on_message(filters.command(["genpassword", 'genpw']))
+@Client.on_message(filters.private & filters.text)
 async def password(bot, update):
-    message = await update.reply_text(text="`Processing...`")
+    message = await message.reply_text('`Processing...`')
     password = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+".lower()
     try:
         limit = int(message.text)
@@ -31,6 +31,5 @@ async def password(bot, update):
         text = "Sorry... Failed To Create Password, Because Limit is 1 to 100."
     else:
         random_value = "".join(random.sample(password, limit))
-        text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\nJoin @JOSPSupport",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://telegram.me/josprojects')]])
+        text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\nJoin @EKBOTZ_UPDATE"
     await message.edit_text(text, True)
