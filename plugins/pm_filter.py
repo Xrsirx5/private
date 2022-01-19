@@ -506,12 +506,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "sar":
         buttons = [[
-            InlineKeyboardButton('Super Sharanya', url='https://www.imdb.com/title/tt12953548'),
-            InlineKeyboardButton('Bro Daddy', url='https://www.imdb.com/title/tt14875116')
-            ],[
-            InlinekeyboardButton('kurup', url='https://www.imdb.com/title/tt7026666'),
-            InlinekKeyboardButton('no way home', url='https://www.imdb.com/title/tt16854632') 
-            ],[
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
