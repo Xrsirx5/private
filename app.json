@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/josprojects/tgmoviebot",
-    "repository": "https://github.com/josprojects/tgmoviebot",
+    "website": "https://github.com/Xrsirx5/private",
+    "repository": "https://github.com/Xrsirx5/private",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token. Get from @BotFather.",
