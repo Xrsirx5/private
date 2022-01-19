@@ -836,14 +836,14 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-[InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/+q9NMdy0rY10zZWZl")]
+[InlineKeyboardButton(text="⚠️ Check Bot PM ⚠️",url="https://t.me/Mohalal_robot")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1 🗓",callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/+q9NMdy0rY10zZWZl")]
+            [InlineKeyboardButton(text="⚠️ Check Bot PM ⚠️",url="https://t.me/Mohalal_robot")]
         )
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if IMDB else None
