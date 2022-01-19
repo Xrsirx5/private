@@ -463,7 +463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('url', callback_data='shortner'),
             InlineKeyboardButton('zombies', callback_data='zombies'),
-            InlinekeyboardButton('triler', callback_data='s')
+            InlineKeyboardButton('triler', callback_data='sar')
             ],[
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
@@ -504,7 +504,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "s":
+    elif query.data == "sar":
         buttons = [[
             InlineKeyboardButton('Super Sharanya', url='https://www.imdb.com/title/tt12953548'),
             InlineKeyboardButton('Bro Daddy', url='https://www.imdb.com/title/tt14875116')
