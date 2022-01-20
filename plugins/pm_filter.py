@@ -426,8 +426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔎𝗦𝗲𝗮𝗿𝗰𝗵', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/Alifmuhammad_tg')
-            ],[
+            InlineKeyboardButton('🧑‍💻𝗠𝘆 𝗱𝗲𝘃👨‍💻', url='https://t.me/Alifmuhammad_tg'),
             InlineKeyboardButton('🙏𝗦𝗵𝗮𝗿𝗲 𝗺𝗲🙏', url='https://t.me/share/url?url=@Mohalal_robot')
             ],[
             InlineKeyboardButton('🔐𝗖𝗹𝗼𝘀𝗲🔐', callback_data='close_data')
